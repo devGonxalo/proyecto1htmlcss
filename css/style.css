@@ -38,7 +38,7 @@ header{
 	cursor: pointer;
 }
 /*PANTALLA DE ESCRITORIO GRANDE - LARGE (xlg)*/
-@media(min-width:1920px){
+@media(min-width:1636px){
 
 	.col-xlg-12{width: 100%;}
 	.col-xlg-11{width: 91.66666667%;}
@@ -427,7 +427,7 @@ header{
 
 /*PANTALLA DE ESCRITORIO GRANDE - LARGE (lg)*/
 
-@media(max-width:1919px) and (min-width:1200px){
+@media(max-width:1635px) and (min-width:1280px){
 
 	.col-lg-12{width: 100%;}
 	.col-lg-11{width: 91.66666667%;}
@@ -453,7 +453,7 @@ header{
 
 	.navbar{
 		height: 80px;
-		width: 100vw;
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		text-align: center;
@@ -476,10 +476,10 @@ header{
 	    width: 100%;
     }
     .col-banner{
-	    width: 1280px;
+	    width: 100%;
 	    height: 401px;
 		background: transparent url('../img/NoPath.png') 0% 0% no-repeat;
-	    opacity: 1;
+		background-size: cover;
 	}
     .box{
 		width: 100%;
@@ -807,9 +807,10 @@ header{
     }
 }
 
+
 /*PANTALLA DE TABLET - SMALL (sm)*/
 
-@media(max-width:991px) and (min-width:768px){
+@media(max-width:1279px) and (min-width:768px){
 
 	.col-sm-12{width: 100%;}
 	.col-sm-11{width: 91.66666667%;}
@@ -1145,11 +1146,11 @@ header{
         vertical-align: -50%;
     }
     .col-banner{
-	    width: 768px;
+	    width: 100%;
 	    height: 200px;
 		background: transparent url('../img/NoPath.png') 0% 0% no-repeat;
 		background-size: cover;
-	    opacity: 1;
+
 	}
 	.col-login{
 		padding: 0 50px 0 50px;
@@ -1568,11 +1569,10 @@ header{
     }
     .col-banner{
     	margin-top: 40px;
-	    width: 375px;
+	    width: 100%;
 	    height: 140px;
 		background: transparent url('../img/NoPath.png') 0% 0% no-repeat;
 		background-size: cover;
-	    opacity: 1;
 	}
 	.col-login{
 		float: none;
