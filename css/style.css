@@ -38,7 +38,7 @@ header{
 	cursor: pointer;
 }
 /*PANTALLA DE ESCRITORIO GRANDE - LARGE (xlg)*/
-@media(min-width:1636px){
+@media(max-width:1920px) and (min-width:1636px){
 
 	.col-xlg-12{width: 100%;}
 	.col-xlg-11{width: 91.66666667%;}
@@ -1174,6 +1174,7 @@ header{
 		margin: -25px 0 0 373.58px;
 	    fill:#FFFFFF;
 	}
+
 	.col-img1{
 		width: 123px;
 		height: 110px;
@@ -1183,6 +1184,8 @@ header{
 	    background: transparent url('../img/img1.png') 0% 0% no-repeat padding-box;
 		box-shadow: 0px 3px 6px #00000029;
 		background-size: contain;
+		display: inline-block;
+
 	}
 	.col-img2{
 		width: 123px;
@@ -1193,6 +1196,8 @@ header{
 		background: transparent url('../img/img2.png') 0% 0% no-repeat padding-box;
 		box-shadow: 0px 3px 6px #00000029;
 		background-size: contain;
+		display: inline-block;
+
 	}
 	.col-img3{
 		width: 123px;
@@ -1203,6 +1208,8 @@ header{
 		background: transparent url('../img/img3.png') 0% 0% no-repeat padding-box;
 		box-shadow: 0px 3px 6px #00000029;
 		background-size: contain;
+		display: inline-block;
+
 	}
 	.col-img4{
 		width: 123px;
@@ -1212,6 +1219,8 @@ header{
 		background: transparent url('../img/img4.png') 0% 0% no-repeat padding-box;
 		box-shadow: 0px 3px 6px #00000029;
 		background-size: contain;
+		display: inline-block;
+
 	}
 	.dfbutton{
 	    margin-top: 45px;
@@ -1594,6 +1603,16 @@ header{
 	    display: block;
 		margin: -25px 0 0 282.58px;
 	    fill:#FFFFFF;
+	}
+	.scroll{;
+	  width: 100vw;
+	  height: 150px;
+	  overflow: scroll;
+	}
+	.cajascroll{
+		overflow: scroll;
+		width: 600px;
+		height: auto;
 	}
 	.col-img1{
 		width: 123px;
